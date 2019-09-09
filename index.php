@@ -149,7 +149,7 @@
                     <div class="footer__copyright">
                         <span><?php echo $site->footer() ?></span>
                         <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
-                        <span>Powered by <a href="https://www.bludit.com.com/">Bludit</a></span>
+                        <span>Powered by <a href="https://www.bludit.com/">Bludit</a></span>
                     </div>
                 </div>
             </div>

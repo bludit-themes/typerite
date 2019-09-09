@@ -23,4 +23,4 @@ You can help us with the missing features by creating a pull request.
 Typerite is based on Typerite template by [Styleshout.com](https://www.styleshout.com/free-templates/typerite/), to use the theme is complete free but you can not remove the footer links, please read the license from https://www.styleshout.com/template-license/
 
 ## Screenshot
-![screenshot-Typerite](https://raw.githubusercontent.com/bludit-themes/Typerite/master/screenshot.jpg)
+![screenshot-Typerite](https://raw.githubusercontent.com/bludit-themes/typerite/master/screenshot.jpg)
