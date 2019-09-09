@@ -12,6 +12,17 @@
 	</div>
 	<?php endif ?>
 
+	<?php if (pluginActivated('pluginAbout') && $url->pageNumber()==1): ?>
+	<article class="masonry__brick entry format-quote">
+	<div class="entry__thumb">
+		<blockquote>
+		<p><?php echo html_entity_decode(nl2br( $pluginsInstalled['pluginAbout']->getValue('text') )) ?></p>
+		<cite><?php echo $site->title() ?></cite>
+		</blockquote>
+	</div>
+	</article>
+	<?php endif ?>
+
 	<!-- Articles -->
 	<?php foreach ($content as $page): ?>
 	<article class="masonry__brick entry format-standard animate-this">

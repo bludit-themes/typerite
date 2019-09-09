@@ -19,6 +19,7 @@
     <?php echo Theme::css('css/base.css') ?>
     <?php echo Theme::css('css/vendor.css') ?>
     <?php echo Theme::css('css/main.css') ?>
+    <?php echo Theme::css('css/bludit.css') ?>
 
     <!-- script
     ================================================== -->
