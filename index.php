@@ -32,9 +32,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo Theme::src('favicon-16x16.png') ?>">
     <link rel="manifest" href="<?php echo Theme::src('site.webmanifest') ?>">
 
+	<!-- Load Bludit Plugins: Site head -->
+	<?php Theme::plugins('siteHead') ?>
 </head>
 
 <body>
+
+	<!-- Load Bludit Plugins: Site Body Begin -->
+	<?php Theme::plugins('siteBodyBegin') ?>
 
     <!-- preloader
     ================================================== -->
@@ -167,5 +172,8 @@
     <?php echo Theme::jquery() ?>
     <?php echo Theme::js('js/plugins.js') ?>
     <?php echo Theme::js('js/main.js') ?>
+
+	<!-- Load Bludit Plugins: Site Body End -->
+	<?php Theme::plugins('siteBodyEnd') ?>
 
 </body>

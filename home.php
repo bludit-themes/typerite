@@ -41,9 +41,11 @@
 
 		    <h2 class="entry__title"><a href="<?php echo $page->permalink() ?>"><?php echo $page->title() ?></a></h2>
 		    <div class="entry__meta">
+            <?php if ($page->category()): ?>
 			<span class="entry__meta-cat">
 			    <a href="<?php echo $page->categoryPermalink() ?>"><?php echo $page->category() ?></a>
 			</span>
+            <?php endif; ?>
 			<span class="entry__meta-date">
 			    <a href="<?php echo $page->permalink() ?>"><?php echo $page->date() ?></a>
 			</span>
@@ -52,6 +54,11 @@
 		</div>
 		<div class="entry__excerpt">
 		<?php echo $page->contentBreak() ?>
+		<?php if ($page->readMore()): ?>
+            <a href="<?php echo $page->permalink() ?>">
+                <?php echo $language->get('Read more') ?>
+            </a>
+        <?php endif; ?>
 		</div>
 	    </div>
 
