@@ -122,6 +122,7 @@
 
                 </ul> <!-- end header__nav -->
 
+                <!-- Social Networks -->
                 <ul class="header__social">
                     <?php foreach (Theme::socialNetworks() as $key=>$label): ?>
                     <li class="ss-<?php echo $key ?>">
@@ -130,6 +131,15 @@
                         </a>
                     </li>
                     <?php endforeach ?>
+                    
+                <!-- RSS -->
+                    <?php if (Theme::rssUrl()): ?>
+                    <li class="ss-rss">
+                        <a href="<?php echo Theme::rssUrl() ?>">
+                            <span class="screen-reader-text">RSS</span>
+                        </a>
+                    </li>
+                    <?php endif; ?>
                 </ul>
 
             </nav> <!-- end header__nav-wrap -->
