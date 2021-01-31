@@ -2518,6 +2518,10 @@ input::-moz-focus-inner {
   background-image: url(../images/icons/social/icon-rss.svg);
 }
 
+.header__social .ss-youtube a::after {
+  background-image: url(../images/icons/social/icon-youtube.svg);
+}
+
 /* -------------------------------------------------------------------
  * ## header search trigger
  * ------------------------------------------------------------------- */
