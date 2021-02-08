@@ -2959,6 +2959,7 @@ body.search-is-visible {
  * ------------------------------------------------------------------- */
 .s-content {
   padding-top: 6.4rem;
+  z-index: 98;
 }
 
 .content__page {
