@@ -107,7 +107,7 @@
 
                     <!-- Categories -->
 		            <li class="has-children">
-                        <a href="#0" title="">Categories</a>
+                        <a href="#0" title=""><?php echo $language->get('Categories') ?></a>
                         <ul class="sub-menu">
                         <?php foreach ($categories->db as $categoryKey=>$categoryFields): ?>
                         <li><a href="<?php echo DOMAIN_CATEGORIES.$categoryKey ?>"><?php echo $categoryFields['name'] ?></a></li>
