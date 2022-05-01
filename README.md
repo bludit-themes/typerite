@@ -13,7 +13,7 @@ Typerite theme for Bludit based in Typerite template by Styleshout.
 
 ## Missing features
 You can help us with the missing features by creating a pull request.
-- Next and previus page
+- Next and previous page
 - Related pages
 
 ## Comptabile

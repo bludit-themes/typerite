@@ -78,14 +78,14 @@ If you have minimum web development experience, you can easily modify the templa
 However, If you're still new to HTML and CSS, I suggest that you visit the 
 following tutorials:
 
- - https://webdesign.tutsplus.com/courses/30-days-to-learn-html-css
+ - https://marksheet.io/
  - http://learn.shayhowe.com/html-css/
 
 These will teach you the essentials of HTML and CSS. In addition, if you want to include
-jQuery in your skill-set, you can also check out these tutorials: 
+javascript in your skill-set, you can also check out these tutorials: 
 
- - https://code.tutsplus.com/courses/30-days-to-learn-jquery
- - http://try.jquery.com/
+ - https://www.codecademy.com/learn/introduction-to-javascript
+ - https://javascript.info/
 
 
 ------------------------------------------------------------------------------------------------------ 
@@ -112,6 +112,7 @@ Fonts:
 
 Icons:
  - Iconmonstr (https://iconmonstr.com/)
+ - TeenyIcons (https://teenyicons.com/)
  
 Stock Photos and Graphics:
  - Unsplash.com (https://unsplash.com/)
@@ -122,7 +123,7 @@ Javascript Files:
  - Masonry JS (https://masonry.desandro.com/)
  - ImagesLoaded (https://imagesloaded.desandro.com/)
  - Slick slider (http://kenwheeler.github.io/slick/)
- - Code Prettify (https://github.com/google/code-prettify)
+ - Prism JS (https://prismjs.com/)
 
 -------------------------------------------------------------------------------------------------------
 
