@@ -1,5 +1,5 @@
 # Typerite.
-Typerite theme for Bludit based in Typerite template by Styleshout.
+Typerite theme for Bludit based on Typerite template by Styleshout.
 - https://www.styleshout.com/free-templates/typerite/
 
 ## Features
